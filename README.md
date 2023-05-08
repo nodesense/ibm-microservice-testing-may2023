@@ -21,3 +21,15 @@ confluent local start
 intellij-idea-community
 
 ```
+
+to start terminal
+
+```
+postman
+```
+
+To install postman one time
+
+```
+sudo snap install postman --edge
+```

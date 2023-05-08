@@ -47,3 +47,21 @@ username: admin
 
 password: admin1234
 
+
+----
+
+
+Now setup postgres Admin 
+
+
+Visit 
+
+http://localhost:5050/login?next=%2F
+
+
+username: admin@example.com
+
+password: admin
+
+
+add postgres database in pgadmin

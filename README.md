@@ -4,3 +4,12 @@
 
 https://github.com/nodesense/kafka
 
+# on daily basics
+
+open Lxterminal
+
+```
+cd docker
+
+docker compose  -f common.yml -f postgres.yml up -d
+```

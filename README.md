@@ -15,4 +15,9 @@ docker compose  -f common.yml -f postgres.yml up -d
 
 
 confluent local start
+
+
+
+intellij-idea-community
+
 ```

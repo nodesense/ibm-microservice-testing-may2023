@@ -37,6 +37,8 @@ cd docker
 
 docker compose  -f common.yml -f postgres.yml up -d
 
+docker compose  -f common.yml -f mysql.yml up -d
+
 
 confluent local start
 

@@ -35,6 +35,19 @@ wget https://raw.githubusercontent.com/nodesense/kafka/main/docker/postgres.yml
 docker compose  -f common.yml -f postgres.yml up -d
 ```
 
+
+
+Mysql
+
+username: root 
+
+password: root
+
+```
+wget https://raw.githubusercontent.com/nodesense/kafka/main/docker/mysql.yml
+docker compose  -f common.yml -f mysql.yml up -d
+```
+
 visit docker UI
 
 https://localhost:9443/

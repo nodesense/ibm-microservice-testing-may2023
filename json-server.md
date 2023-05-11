@@ -31,4 +31,31 @@ sudo npm install json-server -g
 place holder for sample data
 
 ```
+wget https://raw.githubusercontent.com/nodesense/ibm-microservice-testing-may2023/main/db.json
 ```
+
+
+now run the test server
+
+```
+json-server --watch db.json
+```
+
+Testing
+
+
+
+http://localhost:3000
+
+
+http://localhost:3000/products
+
+
+
+http://localhost:3000/products/1
+
+For other APIS, refer documentation
+
+https://www.npmjs.com/package/json-server
+
+

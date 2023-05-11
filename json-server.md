@@ -25,7 +25,7 @@ node -v
 ### set up json server
 
 ```
-sudo npm install json-server -g
+npm install json-server -g
 ```
 
 place holder for sample data

@@ -1,0 +1,17 @@
+{
+  "orders": [],
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone",
+      "price": 40000
+    }
+  ],
+  "inventory": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "stock": 100
+    }
+  ]
+}

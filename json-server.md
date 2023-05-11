@@ -59,3 +59,32 @@ For other APIS, refer documentation
 https://www.npmjs.com/package/json-server
 
 
+
+```
+open new terminal 
+
+
+cd ~
+
+ls 
+
+// check db.json exist
+
+
+code db.json
+
+// then paste the content in chat within order
+
+// open browser localhost:3000  or refresh page 
+
+check orders data 
+
+// http://localhost:3000/orders 
+
+
+body("$[0].amount", equa..(300))
+body.$[0].items[0].price", equal check 20)
+then check subTotal 
+then check qty
+```
+

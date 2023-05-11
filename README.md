@@ -27,6 +27,10 @@ Confluent
 
 http://localhost:9021
 
+Tracing Service URL
+
+http://0.0.0.0:16686/search
+
  
 # on daily basics
 

@@ -44,13 +44,25 @@ docker compose  -f common.yml -f postgres.yml up -d
 docker compose  -f common.yml -f mysql.yml up -d
 
 
-confluent local start
+docker compose  -f common.yml -f jaeger.yml up -d
+
+docker compose  -f common.yml -f kafka.yml up -d
+
+docker compose  -f common.yml -f ms.yml up
+
 
 
 
 intellij-idea-community
 
 ```
+
+to start kafka on local dev machine. not needed for day 5
+```
+
+confluent local start
+```
+
 
 to start terminal
 
